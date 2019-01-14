@@ -1,0 +1,66 @@
+* { margin: 0; padding: 0; }
+
+.sky {
+    position: fixed; top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: linear-gradient(#191970, #E0FFFF);
+}
+
+.stars {
+    position: fixed; top: 0; left: 0; z-index: 10;
+    width: 100%; height: 100%;
+}
+.stars .star {
+    width: 300px;position: absolute;
+}
+
+.stars .star.star1 { animation: star1 1s infinite; }
+@keyframes star1 {
+    from { top: -300px; left: 0; }
+    to { top: 300px; left: -300px; }
+}
+
+.stars .star.star2 {
+    animation: star2 1.3s infinite; animation-delay: 1s;
+    top: -300px; left: 350px;
+}
+@keyframes star2 {
+    from { top: -300px; left: 350px; }
+    to { top: 650px; left: -300px; }
+}
+
+.stars .star.star3 { animation: star3 1.7s infinite; }
+@keyframes star3 {
+    from { top: -300px; left: 700px; }
+    to { top: 1000px; left: -300px; }
+}
+
+.stars .star.star4 {
+    animation: star4 2.3s infinite; animation-delay: 1s;
+    top: -300px; left: 1050px;
+}
+@keyframes star4 {
+    from { top: -300px; left: 1050px; }
+    to { top: 1350px; left: -300px; }
+}
+
+.stars .star.star5 { animation: star5 2.7s infinite; }
+@keyframes star5 {
+    from { top: -300px; left: 1400px; }
+    to { top: 1700px; left: -300px; }
+}
+
+.stars .star.star6 {
+    animation: star6 3.3s infinite; animation-delay: 1s;
+    top: -300px; left: 2100px;
+}
+@keyframes star6 {
+    from { top: -300px; left: 2100px; }
+    to { top: 2400px; left: -300px; }
+}
+
+.stars .star.star7 { animation: star7 3.7s infinite; }
+@keyframes star7 {
+    from { top: -300px; left: 2450px; }
+    to { top: 2750px; left: -300px; }
+}
